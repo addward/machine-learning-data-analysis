@@ -1,0 +1,1113 @@
+Log file created at: 2020/04/17 15:28:44
+Running on machine: DESKTOP-9S7GMKB
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0417 15:28:44.747853  4664 c_interface.cc:127] Logging enabled to .
+I0417 15:28:44.749549  4664 c_interface.cc:128] BigARTM version: v0.10.1
+I0417 15:28:44.749549  4664 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=0, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=0, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0417 15:28:44.749549  4664 c_interface.cc:274] Creating MasterModel (id=1)...
+I0417 15:28:44.751549  4664 collection_parser.cc:771] CollectionParserConfig.num_threads is automatically set to 8
+I0417 15:28:46.804296  4664 c_interface.cc:375] Pass fcb14a79-018c-493a-8e47-9ce7437bb7c9 to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0417 15:28:46.805326  4664 c_interface.cc:389] Pass GatherDictionaryArgs: dictionary_target_name=fcb14a79-018c-493a-8e47-9ce7437bb7c9, data_path=postnauka, symmetric_cooc_values=0 to void (__cdecl artm::core::MasterComponent::*)(class artm::GatherDictionaryArgs const & __ptr64) __ptr64
+I0417 15:28:46.805326  4664 dictionary_operations.cc:265] Found 2 batches in 'postnauka' folder
+I0417 15:28:47.061349  4664 dictionary_operations.cc:331] Find 26866 unique tokens in 1728 items
+I0417 15:28:47.146582  4664 dictionary_operations.cc:611] Dictionary name='fcb14a79-018c-493a-8e47-9ce7437bb7c9' contains entries: author:539; text:26327; 
+I0417 15:28:55.041071  4664 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=0, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=0, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0417 15:28:55.041071  4664 c_interface.cc:274] Creating MasterModel (id=2)...
+I0417 15:28:55.043067  4664 collection_parser.cc:771] CollectionParserConfig.num_threads is automatically set to 8
+W0417 15:28:55.842782  2040 helpers.cc:231] File already exists: postnauka\aaaaaa.batch
+W0417 15:28:56.883170 14096 helpers.cc:231] File already exists: postnauka\aaaaab.batch
+I0417 15:28:56.994693  4664 c_interface.cc:375] Pass e3df6e76-478f-44ee-a0bd-3c7ec722d256 to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0417 15:28:56.994693  4664 c_interface.cc:389] Pass GatherDictionaryArgs: dictionary_target_name=e3df6e76-478f-44ee-a0bd-3c7ec722d256, data_path=postnauka, symmetric_cooc_values=0 to void (__cdecl artm::core::MasterComponent::*)(class artm::GatherDictionaryArgs const & __ptr64) __ptr64
+I0417 15:28:56.994693  4664 dictionary_operations.cc:265] Found 2 batches in 'postnauka' folder
+I0417 15:28:57.244267  4664 dictionary_operations.cc:331] Find 26866 unique tokens in 1728 items
+I0417 15:28:57.326992  4664 dictionary_operations.cc:611] Dictionary name='e3df6e76-478f-44ee-a0bd-3c7ec722d256' contains entries: author:539; text:26327; 
+I0417 15:33:47.595016  4664 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=30, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=10, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0417 15:33:47.605085  4664 instance.cc:401] MasterModelConfig.processors_count is automatically set to 8
+I0417 15:33:47.606082  8268 processor.cc:58] Processor thread started
+I0417 15:33:47.606925 11692 processor.cc:58] Processor thread started
+I0417 15:33:47.607926 12500 processor.cc:58] Processor thread started
+I0417 15:33:47.608920  5656 processor.cc:58] Processor thread started
+I0417 15:33:47.609921 14468 processor.cc:58] Processor thread started
+I0417 15:33:47.612213 11112 processor.cc:58] Processor thread started
+I0417 15:33:47.613353 14320 processor.cc:58] Processor thread started
+I0417 15:33:47.614348  4664 c_interface.cc:274] Creating MasterModel (id=3)...
+I0417 15:33:47.614348 14924 processor.cc:58] Processor thread started
+I0417 15:33:47.700712 11692 processor.cc:74] No data in processing queue, waiting...
+I0417 15:33:47.700712  8268 processor.cc:74] No data in processing queue, waiting...
+I0417 15:33:47.704704 12500 processor.cc:74] No data in processing queue, waiting...
+I0417 15:33:47.704704 14468 processor.cc:74] No data in processing queue, waiting...
+I0417 15:33:47.704704 11112 processor.cc:74] No data in processing queue, waiting...
+I0417 15:33:47.704704  5656 processor.cc:74] No data in processing queue, waiting...
+I0417 15:33:47.708689 14924 processor.cc:74] No data in processing queue, waiting...
+I0417 15:33:47.708689 14320 processor.cc:74] No data in processing queue, waiting...
+I0417 15:36:53.102576  4664 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=30, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=10, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0417 15:36:53.102576  4664 instance.cc:401] MasterModelConfig.processors_count is automatically set to 8
+I0417 15:36:53.106993  5200 processor.cc:58] Processor thread started
+I0417 15:36:53.107630 16496 processor.cc:58] Processor thread started
+I0417 15:36:53.108626 14988 processor.cc:58] Processor thread started
+I0417 15:36:53.109624  7496 processor.cc:58] Processor thread started
+I0417 15:36:53.110297  5736 processor.cc:58] Processor thread started
+I0417 15:36:53.111140  9720 processor.cc:58] Processor thread started
+I0417 15:36:53.112213 16340 processor.cc:58] Processor thread started
+I0417 15:36:53.112586  4664 c_interface.cc:274] Creating MasterModel (id=4)...
+I0417 15:36:53.112586  4664 c_interface.cc:375] Pass pwt to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0417 15:36:53.112586  4664 c_interface.cc:375] Pass nwt to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0417 15:36:53.112586  9612 processor.cc:58] Processor thread started
+I0417 15:36:53.112586  4664 c_interface.cc:389] Pass InitializeModelArgs: model_name=pwt, dictionary_name=e3df6e76-478f-44ee-a0bd-3c7ec722d256, topic_name_size=30, seed=-1 to void (__cdecl artm::core::MasterComponent::*)(class artm::InitializeModelArgs const & __ptr64) __ptr64
+I0417 15:36:53.193094 16496 processor.cc:74] No data in processing queue, waiting...
+I0417 15:36:53.193094  5200 processor.cc:74] No data in processing queue, waiting...
+I0417 15:36:53.193094 14988 processor.cc:74] No data in processing queue, waiting...
+I0417 15:36:53.198439  9612 processor.cc:74] No data in processing queue, waiting...
+I0417 15:36:53.198439  9720 processor.cc:74] No data in processing queue, waiting...
+I0417 15:36:53.198439  5736 processor.cc:74] No data in processing queue, waiting...
+I0417 15:36:53.198439 16340 processor.cc:74] No data in processing queue, waiting...
+I0417 15:36:53.198439  7496 processor.cc:74] No data in processing queue, waiting...
+I0417 15:36:53.378126  4664 master_component.cc:699] InitializeModel() created matrix pwt with 30 topics and 26866 tokens; 
+I0417 15:36:53.378126  4664 c_interface.cc:389] Pass InitializeModelArgs: model_name=nwt, dictionary_name=e3df6e76-478f-44ee-a0bd-3c7ec722d256, topic_name_size=30, seed=-1 to void (__cdecl artm::core::MasterComponent::*)(class artm::InitializeModelArgs const & __ptr64) __ptr64
+I0417 15:36:53.652458  4664 master_component.cc:699] InitializeModel() created matrix nwt with 30 topics and 26866 tokens; 
+I0417 15:36:53.652458  4664 c_interface.cc:231] ArtmCopyRequestedMessage is copying 309 bytes...
+I0417 15:39:53.242668  4664 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=30, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=10, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0417 15:39:53.242668  4664 instance.cc:401] MasterModelConfig.processors_count is automatically set to 8
+I0417 15:39:53.248100  8448 processor.cc:58] Processor thread started
+I0417 15:39:53.248100  3424 processor.cc:58] Processor thread started
+I0417 15:39:53.248100 16516 processor.cc:58] Processor thread started
+I0417 15:39:53.249413  2944 processor.cc:58] Processor thread started
+I0417 15:39:53.249877 16820 processor.cc:58] Processor thread started
+I0417 15:39:53.249877  1092 processor.cc:58] Processor thread started
+I0417 15:39:53.251359 16636 processor.cc:58] Processor thread started
+I0417 15:39:53.251430  4664 c_interface.cc:274] Creating MasterModel (id=5)...
+I0417 15:39:53.251430  4664 c_interface.cc:375] Pass pwt to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0417 15:39:53.251430  4664 c_interface.cc:375] Pass nwt to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0417 15:39:53.251430 14548 processor.cc:58] Processor thread started
+I0417 15:39:53.251430  4664 c_interface.cc:389] Pass InitializeModelArgs: model_name=pwt, dictionary_name=e3df6e76-478f-44ee-a0bd-3c7ec722d256, topic_name_size=30, seed=1 to void (__cdecl artm::core::MasterComponent::*)(class artm::InitializeModelArgs const & __ptr64) __ptr64
+I0417 15:39:53.334795 16516 processor.cc:74] No data in processing queue, waiting...
+I0417 15:39:53.334795  2944 processor.cc:74] No data in processing queue, waiting...
+I0417 15:39:53.334795 16820 processor.cc:74] No data in processing queue, waiting...
+I0417 15:39:53.334795  8448 processor.cc:74] No data in processing queue, waiting...
+I0417 15:39:53.334795  1092 processor.cc:74] No data in processing queue, waiting...
+I0417 15:39:53.334954  3424 processor.cc:74] No data in processing queue, waiting...
+I0417 15:39:53.340106 14548 processor.cc:74] No data in processing queue, waiting...
+I0417 15:39:53.340106 16636 processor.cc:74] No data in processing queue, waiting...
+I0417 15:39:53.505892  4664 master_component.cc:699] InitializeModel() created matrix pwt with 30 topics and 26866 tokens; 
+I0417 15:39:53.505892  4664 c_interface.cc:389] Pass InitializeModelArgs: model_name=nwt, dictionary_name=e3df6e76-478f-44ee-a0bd-3c7ec722d256, topic_name_size=30, seed=1 to void (__cdecl artm::core::MasterComponent::*)(class artm::InitializeModelArgs const & __ptr64) __ptr64
+I0417 15:39:53.782977  4664 master_component.cc:699] InitializeModel() created matrix nwt with 30 topics and 26866 tokens; 
+I0417 15:39:53.783974  4664 c_interface.cc:231] ArtmCopyRequestedMessage is copying 309 bytes...
+I0417 15:40:30.901965  4664 c_interface.cc:231] ArtmCopyRequestedMessage is copying 544 bytes...
+I0417 15:40:30.906087  4664 phi_matrix_operations.cc:150] RetrieveExternalTopicModel() with 30 topics, 26866 tokens
+I0417 15:40:30.948148  4664 c_interface.cc:231] ArtmCopyRequestedMessage is copying 825334 bytes...
+I0417 15:40:31.342757  8268 processor.cc:66] Processor thread stopped
+I0417 15:40:31.342757  8268 processor.cc:67] Total number of processed batches: 0
+I0417 15:40:31.349674 11692 processor.cc:66] Processor thread stopped
+I0417 15:40:31.349674 11692 processor.cc:67] Total number of processed batches: 0
+I0417 15:40:31.356045 12500 processor.cc:66] Processor thread stopped
+I0417 15:40:31.356045 12500 processor.cc:67] Total number of processed batches: 0
+I0417 15:40:31.361901  5656 processor.cc:66] Processor thread stopped
+I0417 15:40:31.361955  5656 processor.cc:67] Total number of processed batches: 0
+I0417 15:40:31.368506 14468 processor.cc:66] Processor thread stopped
+I0417 15:40:31.368506 14468 processor.cc:67] Total number of processed batches: 0
+I0417 15:40:31.374601 11112 processor.cc:66] Processor thread stopped
+I0417 15:40:31.374601 11112 processor.cc:67] Total number of processed batches: 0
+I0417 15:40:31.380682 14320 processor.cc:66] Processor thread stopped
+I0417 15:40:31.380682 14320 processor.cc:67] Total number of processed batches: 0
+I0417 15:40:31.384645 14924 processor.cc:66] Processor thread stopped
+I0417 15:40:31.384891 14924 processor.cc:67] Total number of processed batches: 0
+I0417 15:40:31.384891  4664 c_interface.cc:339] Disposing MasterComponent (id=3)...
+I0417 15:40:31.390170  5200 processor.cc:66] Processor thread stopped
+I0417 15:40:31.390170  5200 processor.cc:67] Total number of processed batches: 0
+I0417 15:40:31.396404 16496 processor.cc:66] Processor thread stopped
+I0417 15:40:31.396404 16496 processor.cc:67] Total number of processed batches: 0
+I0417 15:40:31.403668 14988 processor.cc:66] Processor thread stopped
+I0417 15:40:31.403668 14988 processor.cc:67] Total number of processed batches: 0
+I0417 15:40:31.410145  7496 processor.cc:66] Processor thread stopped
+I0417 15:40:31.410145  7496 processor.cc:67] Total number of processed batches: 0
+I0417 15:40:31.416581  5736 processor.cc:66] Processor thread stopped
+I0417 15:40:31.416581  5736 processor.cc:67] Total number of processed batches: 0
+I0417 15:40:31.422744  9720 processor.cc:66] Processor thread stopped
+I0417 15:40:31.422744  9720 processor.cc:67] Total number of processed batches: 0
+I0417 15:40:31.428969 16340 processor.cc:66] Processor thread stopped
+I0417 15:40:31.428969 16340 processor.cc:67] Total number of processed batches: 0
+I0417 15:40:31.435194  9612 processor.cc:66] Processor thread stopped
+I0417 15:40:31.435194  9612 processor.cc:67] Total number of processed batches: 0
+I0417 15:40:31.486496  4664 c_interface.cc:339] Disposing MasterComponent (id=4)...
+I0417 15:40:32.254140  4664 phi_matrix_operations.cc:150] RetrieveExternalTopicModel() with 30 topics, 26866 tokens
+I0417 15:40:32.296234  4664 c_interface.cc:231] ArtmCopyRequestedMessage is copying 717870 bytes...
+I0417 15:40:32.596243  4664 c_interface.cc:236] ArtmCopyRequestedObject is copying 3223920 bytes...
+I0417 15:40:46.598064  4664 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=30, score_config_size=2, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=10, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0417 15:40:46.598243  4664 instance.cc:401] MasterModelConfig.processors_count is automatically set to 8
+I0417 15:41:59.199762  4664 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=30, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=10, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0417 15:41:59.199762  4664 instance.cc:401] MasterModelConfig.processors_count is automatically set to 8
+I0417 15:41:59.203526  6108 processor.cc:58] Processor thread started
+I0417 15:41:59.204521  5156 processor.cc:58] Processor thread started
+I0417 15:41:59.205418 10496 processor.cc:58] Processor thread started
+I0417 15:41:59.206461  8472 processor.cc:58] Processor thread started
+I0417 15:41:59.206461 16300 processor.cc:58] Processor thread started
+I0417 15:41:59.207541 16064 processor.cc:58] Processor thread started
+I0417 15:41:59.209089  2136 processor.cc:58] Processor thread started
+I0417 15:41:59.209089  4664 c_interface.cc:274] Creating MasterModel (id=6)...
+I0417 15:41:59.209089  4664 c_interface.cc:375] Pass pwt to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0417 15:41:59.209089  4664 c_interface.cc:375] Pass nwt to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0417 15:41:59.209089 17372 processor.cc:58] Processor thread started
+I0417 15:41:59.210155  4664 c_interface.cc:389] Pass InitializeModelArgs: model_name=pwt, dictionary_name=e3df6e76-478f-44ee-a0bd-3c7ec722d256, topic_name_size=30, seed=1 to void (__cdecl artm::core::MasterComponent::*)(class artm::InitializeModelArgs const & __ptr64) __ptr64
+I0417 15:41:59.287797  6108 processor.cc:74] No data in processing queue, waiting...
+I0417 15:41:59.287797 10496 processor.cc:74] No data in processing queue, waiting...
+I0417 15:41:59.287797  5156 processor.cc:74] No data in processing queue, waiting...
+I0417 15:41:59.291862  2136 processor.cc:74] No data in processing queue, waiting...
+I0417 15:41:59.291862  8472 processor.cc:74] No data in processing queue, waiting...
+I0417 15:41:59.291862 17372 processor.cc:74] No data in processing queue, waiting...
+I0417 15:41:59.291862 16064 processor.cc:74] No data in processing queue, waiting...
+I0417 15:41:59.291862 16300 processor.cc:74] No data in processing queue, waiting...
+I0417 15:41:59.468717  4664 master_component.cc:699] InitializeModel() created matrix pwt with 30 topics and 26866 tokens; 
+I0417 15:41:59.468717  4664 c_interface.cc:389] Pass InitializeModelArgs: model_name=nwt, dictionary_name=e3df6e76-478f-44ee-a0bd-3c7ec722d256, topic_name_size=30, seed=1 to void (__cdecl artm::core::MasterComponent::*)(class artm::InitializeModelArgs const & __ptr64) __ptr64
+I0417 15:41:59.742151  4664 master_component.cc:699] InitializeModel() created matrix nwt with 30 topics and 26866 tokens; 
+I0417 15:41:59.742151  4664 c_interface.cc:231] ArtmCopyRequestedMessage is copying 309 bytes...
+I0417 15:42:06.309621  4664 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=30, score_config_size=2, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=10, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0417 15:42:06.309621  4664 instance.cc:401] MasterModelConfig.processors_count is automatically set to 8
+I0417 15:42:06.311143  4664 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=30, score_config_size=3, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=10, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0417 15:42:06.311143  4664 instance.cc:401] MasterModelConfig.processors_count is automatically set to 8
+I0417 15:43:18.003054  4664 c_interface.cc:231] ArtmCopyRequestedMessage is copying 788 bytes...
+I0417 15:43:18.009327  4664 phi_matrix_operations.cc:150] RetrieveExternalTopicModel() with 30 topics, 26866 tokens
+I0417 15:43:18.042755  4664 c_interface.cc:231] ArtmCopyRequestedMessage is copying 825334 bytes...
+I0417 15:43:18.386873  8448 processor.cc:66] Processor thread stopped
+I0417 15:43:18.386873  8448 processor.cc:67] Total number of processed batches: 0
+I0417 15:43:18.392932  3424 processor.cc:66] Processor thread stopped
+I0417 15:43:18.392932  3424 processor.cc:67] Total number of processed batches: 0
+I0417 15:43:18.398875 16516 processor.cc:66] Processor thread stopped
+I0417 15:43:18.398875 16516 processor.cc:67] Total number of processed batches: 0
+I0417 15:43:18.404968  2944 processor.cc:66] Processor thread stopped
+I0417 15:43:18.404968  2944 processor.cc:67] Total number of processed batches: 0
+I0417 15:43:18.408951 16820 processor.cc:66] Processor thread stopped
+I0417 15:43:18.408951 16820 processor.cc:67] Total number of processed batches: 0
+I0417 15:43:18.415004  1092 processor.cc:66] Processor thread stopped
+I0417 15:43:18.415004  1092 processor.cc:67] Total number of processed batches: 0
+I0417 15:43:18.420966 16636 processor.cc:66] Processor thread stopped
+I0417 15:43:18.420966 16636 processor.cc:67] Total number of processed batches: 0
+I0417 15:43:18.427105 14548 processor.cc:66] Processor thread stopped
+I0417 15:43:18.427105 14548 processor.cc:67] Total number of processed batches: 0
+I0417 15:43:18.475982  4664 c_interface.cc:339] Disposing MasterComponent (id=5)...
+I0417 15:43:19.352684  4664 phi_matrix_operations.cc:150] RetrieveExternalTopicModel() with 30 topics, 26866 tokens
+I0417 15:43:19.392623  4664 c_interface.cc:231] ArtmCopyRequestedMessage is copying 717870 bytes...
+I0417 15:43:19.692260  4664 c_interface.cc:236] ArtmCopyRequestedObject is copying 3223920 bytes...
+I0417 15:43:34.816649  4664 c_interface.cc:231] ArtmCopyRequestedMessage is copying 788 bytes...
+I0417 15:43:46.322444  4664 c_interface.cc:231] ArtmCopyRequestedMessage is copying 788 bytes...
+I0417 15:43:55.025391  4664 c_interface.cc:375] Pass pwt to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0417 15:43:55.044317  4664 c_interface.cc:375] Pass nwt to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0417 15:43:55.058749  4664 c_interface.cc:389] Pass InitializeModelArgs: model_name=pwt, dictionary_name=e3df6e76-478f-44ee-a0bd-3c7ec722d256, topic_name_size=30, seed=1 to void (__cdecl artm::core::MasterComponent::*)(class artm::InitializeModelArgs const & __ptr64) __ptr64
+I0417 15:43:55.341579  4664 master_component.cc:699] InitializeModel() created matrix pwt with 30 topics and 26866 tokens; 
+I0417 15:43:55.342612  4664 c_interface.cc:389] Pass InitializeModelArgs: model_name=nwt, dictionary_name=e3df6e76-478f-44ee-a0bd-3c7ec722d256, topic_name_size=30, seed=1 to void (__cdecl artm::core::MasterComponent::*)(class artm::InitializeModelArgs const & __ptr64) __ptr64
+I0417 15:43:55.613318  4664 master_component.cc:699] InitializeModel() created matrix nwt with 30 topics and 26866 tokens; 
+I0417 15:43:55.617388  4664 c_interface.cc:231] ArtmCopyRequestedMessage is copying 457 bytes...
+I0417 15:44:29.988801  4664 c_interface.cc:231] ArtmCopyRequestedMessage is copying 788 bytes...
+I0417 15:44:29.995240  4664 phi_matrix_operations.cc:150] RetrieveExternalTopicModel() with 30 topics, 26866 tokens
+I0417 15:44:30.035749  4664 c_interface.cc:231] ArtmCopyRequestedMessage is copying 825334 bytes...
+I0417 15:44:31.305593  4664 phi_matrix_operations.cc:150] RetrieveExternalTopicModel() with 30 topics, 26866 tokens
+I0417 15:44:31.342757  4664 c_interface.cc:231] ArtmCopyRequestedMessage is copying 717870 bytes...
+I0417 15:44:31.815099  4664 c_interface.cc:236] ArtmCopyRequestedObject is copying 3223920 bytes...
+I0417 15:46:25.122285  4664 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=30, score_config_size=3, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=10, regularizer=(SmoothPhi:100000), reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0417 15:46:25.122285  4664 instance.cc:401] MasterModelConfig.processors_count is automatically set to 8
+I0417 15:46:25.122285  4664 instance.cc:232] Regularizer 'SmoothPhi' was cold-reconfigured
+I0417 15:47:08.639214  4664 c_interface.cc:231] ArtmCopyRequestedMessage is copying 912 bytes...
+I0417 15:47:25.803854  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:47:25.803854  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:47:25.815480  4664 master_component.cc:863] Batches count (=2) is smaller than num processors (=8), which may cause suboptimal performance.
+I0417 15:47:25.819023  8472 processor.cc:81] Processing queue has data, processing started
+I0417 15:47:25.819023 17372 processor.cc:81] Processing queue has data, processing started
+I0417 15:47:25.856201  8472 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:47:25.891463 17372 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:47:26.564301  8472 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:47:26.568296  8472 cuckoo_watch.h:45] 750ms in ProcessBatch(postnauka\aaaaaa.batch) [including 40ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 26ms in InitializeSparseNdw; 470ms in InferThetaAndUpdateNwtSparse; 208ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:47:26.648175  8472 processor.cc:74] No data in processing queue, waiting...
+I0417 15:47:27.177733 17372 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:47:27.181777 17372 cuckoo_watch.h:45] 1363ms in ProcessBatch(postnauka\aaaaab.batch) [including 72ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 77ms in InitializeSparseNdw; 960ms in InferThetaAndUpdateNwtSparse; 247ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:47:27.185667  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:47:27.185667  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:47:27.266423  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:47:27.266423  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:47:27.266423  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:47:27.276161 17372 processor.cc:74] No data in processing queue, waiting...
+I0417 15:47:27.317705  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:47:27.514714  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:47:27.527904  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:47:27.531898  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:47:27.531898  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:47:27.559810  8472 processor.cc:81] Processing queue has data, processing started
+I0417 15:47:27.563840  2136 processor.cc:81] Processing queue has data, processing started
+I0417 15:47:27.606825  8472 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:47:27.648401  2136 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:47:28.223579  8472 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:47:28.227298  8472 cuckoo_watch.h:45] 668ms in ProcessBatch(postnauka\aaaaaa.batch) [including 47ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 31ms in InitializeSparseNdw; 420ms in InferThetaAndUpdateNwtSparse; 164ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:47:28.321583  8472 processor.cc:74] No data in processing queue, waiting...
+I0417 15:47:29.081816  2136 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:47:29.089814  2136 cuckoo_watch.h:45] 1528ms in ProcessBatch(postnauka\aaaaab.batch) [including 86ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 62ms in InitializeSparseNdw; 997ms in InferThetaAndUpdateNwtSparse; 370ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:47:29.093958  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:47:29.093958  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:47:29.171212  2136 processor.cc:74] No data in processing queue, waiting...
+I0417 15:47:29.213513  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:47:29.213513  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:47:29.213513  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:47:29.290894  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:47:29.497529  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:47:29.509518  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:47:29.509518  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:47:29.509518  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:47:29.542987  5156 processor.cc:81] Processing queue has data, processing started
+I0417 15:47:29.542987 16300 processor.cc:81] Processing queue has data, processing started
+I0417 15:47:29.586906  5156 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:47:29.619949 16300 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:47:30.289479  5156 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:47:30.293467  5156 cuckoo_watch.h:45] 753ms in ProcessBatch(postnauka\aaaaaa.batch) [including 44ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 26ms in InitializeSparseNdw; 478ms in InferThetaAndUpdateNwtSparse; 199ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:47:30.374843  5156 processor.cc:74] No data in processing queue, waiting...
+I0417 15:47:31.008780 16300 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:47:31.016772 16300 cuckoo_watch.h:45] 1476ms in ProcessBatch(postnauka\aaaaab.batch) [including 80ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 68ms in InitializeSparseNdw; 960ms in InferThetaAndUpdateNwtSparse; 356ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:47:31.020763  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:47:31.020763  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:47:31.094516 16300 processor.cc:74] No data in processing queue, waiting...
+I0417 15:47:31.129830  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:47:31.129830  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:47:31.129830  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:47:31.174391  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:47:31.371820  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:47:31.387794  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:47:31.387794  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:47:31.387794  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:47:31.418705  5156 processor.cc:81] Processing queue has data, processing started
+I0417 15:47:31.418705 16300 processor.cc:81] Processing queue has data, processing started
+I0417 15:47:31.457463  5156 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:47:31.494560 16300 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:47:32.110388  5156 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:47:32.118371  5156 cuckoo_watch.h:45] 700ms in ProcessBatch(postnauka\aaaaaa.batch) [including 40ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 32ms in InitializeSparseNdw; 439ms in InferThetaAndUpdateNwtSparse; 181ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:47:32.194247  5156 processor.cc:74] No data in processing queue, waiting...
+I0417 15:47:32.859000 16300 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:47:32.868142 16300 cuckoo_watch.h:45] 1449ms in ProcessBatch(postnauka\aaaaab.batch) [including 79ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 68ms in InitializeSparseNdw; 929ms in InferThetaAndUpdateNwtSparse; 362ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:47:32.872598  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:47:32.872598  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:47:32.946825 16300 processor.cc:74] No data in processing queue, waiting...
+I0417 15:47:32.978775  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:47:32.978775  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:47:32.978775  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:47:33.028040  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:47:33.224727  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:47:33.236707  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:47:33.240700  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:47:33.240700  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:47:33.271275 16064 processor.cc:81] Processing queue has data, processing started
+I0417 15:47:33.271275 17372 processor.cc:81] Processing queue has data, processing started
+I0417 15:47:33.327028 16064 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:47:33.360633 17372 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:47:33.982261 16064 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:47:33.986256 16064 cuckoo_watch.h:45] 717ms in ProcessBatch(postnauka\aaaaaa.batch) [including 58ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 27ms in InitializeSparseNdw; 449ms in InferThetaAndUpdateNwtSparse; 177ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:47:34.065912 16064 processor.cc:74] No data in processing queue, waiting...
+I0417 15:47:34.723170 17372 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:47:34.735146 17372 cuckoo_watch.h:45] 1464ms in ProcessBatch(postnauka\aaaaab.batch) [including 89ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 68ms in InitializeSparseNdw; 936ms in InferThetaAndUpdateNwtSparse; 357ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:47:34.739331  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:47:34.739331  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:47:34.812265 17372 processor.cc:74] No data in processing queue, waiting...
+I0417 15:47:34.848181  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:47:34.848181  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:47:34.848181  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:47:34.899543  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:47:35.102047  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:47:35.115295  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:47:35.115295  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:47:35.115295  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:47:35.144328  5156 processor.cc:81] Processing queue has data, processing started
+I0417 15:47:35.149600 16300 processor.cc:81] Processing queue has data, processing started
+I0417 15:47:35.185194  5156 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:47:35.233129 16300 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:47:35.845584  5156 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:47:35.853543  5156 cuckoo_watch.h:45] 709ms in ProcessBatch(postnauka\aaaaaa.batch) [including 41ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 30ms in InitializeSparseNdw; 449ms in InferThetaAndUpdateNwtSparse; 181ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:47:35.935628  5156 processor.cc:74] No data in processing queue, waiting...
+I0417 15:47:36.604045 16300 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:47:36.612037 16300 cuckoo_watch.h:45] 1464ms in ProcessBatch(postnauka\aaaaab.batch) [including 85ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 66ms in InitializeSparseNdw; 938ms in InferThetaAndUpdateNwtSparse; 363ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:47:36.616191  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:47:36.616191  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:47:36.693882 16300 processor.cc:74] No data in processing queue, waiting...
+I0417 15:47:36.725841  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:47:36.725841  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:47:36.725841  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:47:36.776245  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:47:36.969797  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:47:36.985775  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:47:36.985775  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:47:36.985775  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:47:37.014999 16064 processor.cc:81] Processing queue has data, processing started
+I0417 15:47:37.018535  8472 processor.cc:81] Processing queue has data, processing started
+I0417 15:47:37.055886 16064 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:47:37.100606  8472 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:47:37.760092 16064 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:47:37.764075 16064 cuckoo_watch.h:45] 750ms in ProcessBatch(postnauka\aaaaaa.batch) [including 44ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 35ms in InitializeSparseNdw; 470ms in InferThetaAndUpdateNwtSparse; 194ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:47:37.841141 16064 processor.cc:74] No data in processing queue, waiting...
+I0417 15:47:38.465171  8472 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:47:38.473158  8472 cuckoo_watch.h:45] 1456ms in ProcessBatch(postnauka\aaaaab.batch) [including 82ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 62ms in InitializeSparseNdw; 943ms in InferThetaAndUpdateNwtSparse; 358ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:47:38.477313  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:47:38.477313  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:47:38.550392  8472 processor.cc:74] No data in processing queue, waiting...
+I0417 15:47:38.587568  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:47:38.587568  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:47:38.587568  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:47:38.649657  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:47:38.845135  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:47:38.861115  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:47:38.861115  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:47:38.861115  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:47:38.891285  6108 processor.cc:81] Processing queue has data, processing started
+I0417 15:47:38.891285 16064 processor.cc:81] Processing queue has data, processing started
+I0417 15:47:38.943382  6108 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:47:38.976908 16064 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:47:39.615443  6108 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:47:39.619340  6108 cuckoo_watch.h:45] 729ms in ProcessBatch(postnauka\aaaaaa.batch) [including 52ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 29ms in InitializeSparseNdw; 447ms in InferThetaAndUpdateNwtSparse; 195ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:47:39.727948  6108 processor.cc:74] No data in processing queue, waiting...
+I0417 15:47:40.558854 16064 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:47:40.572229 16064 cuckoo_watch.h:45] 1683ms in ProcessBatch(postnauka\aaaaab.batch) [including 86ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 63ms in InitializeSparseNdw; 885ms in InferThetaAndUpdateNwtSparse; 632ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:47:40.576439  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:47:40.576439  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:47:40.653602 16064 processor.cc:74] No data in processing queue, waiting...
+I0417 15:47:40.795536  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:47:40.796530  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:47:40.796530  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:47:40.924073  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:47:41.255182  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:47:41.267786  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:47:41.268905  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:47:41.268905  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:47:41.299017 16300 processor.cc:81] Processing queue has data, processing started
+I0417 15:47:41.299017 16064 processor.cc:81] Processing queue has data, processing started
+I0417 15:47:41.334008 16300 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:47:41.372840 16064 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:47:41.948662 16300 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:47:41.952208 16300 cuckoo_watch.h:45] 653ms in ProcessBatch(postnauka\aaaaaa.batch) [including 35ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 32ms in InitializeSparseNdw; 389ms in InferThetaAndUpdateNwtSparse; 192ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:47:42.035187 16300 processor.cc:74] No data in processing queue, waiting...
+I0417 15:47:42.645853 16064 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:47:42.653961 16064 cuckoo_watch.h:45] 1354ms in ProcessBatch(postnauka\aaaaab.batch) [including 73ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 58ms in InitializeSparseNdw; 861ms in InferThetaAndUpdateNwtSparse; 352ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:47:42.659521  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:47:42.659521  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:47:42.750977 16064 processor.cc:74] No data in processing queue, waiting...
+I0417 15:47:42.788913  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:47:42.788913  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:47:42.788913  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:47:42.899611  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:47:43.165766  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:47:43.184607  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:47:43.184607  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:47:43.184607  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:47:43.224792 16064 processor.cc:81] Processing queue has data, processing started
+I0417 15:47:43.224792  5156 processor.cc:81] Processing queue has data, processing started
+I0417 15:47:43.283334 16064 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:47:43.333079  5156 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:47:43.854081 16064 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:47:43.858040 16064 cuckoo_watch.h:45] 634ms in ProcessBatch(postnauka\aaaaaa.batch) [including 61ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 47ms in InitializeSparseNdw; 410ms in InferThetaAndUpdateNwtSparse; 109ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:47:43.941390 16064 processor.cc:74] No data in processing queue, waiting...
+I0417 15:47:44.762588  5156 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:47:44.772550  5156 cuckoo_watch.h:45] 1550ms in ProcessBatch(postnauka\aaaaab.batch) [including 110ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 71ms in InitializeSparseNdw; 825ms in InferThetaAndUpdateNwtSparse; 530ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:47:44.775996  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:47:44.775996  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:47:44.872434  5156 processor.cc:74] No data in processing queue, waiting...
+I0417 15:47:44.931833  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:47:44.931833  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:47:44.931833  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:47:45.023464  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:47:45.218623  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:47:45.229558  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:47:45.229558  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:47:45.229558  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:47:45.264564 16064 processor.cc:81] Processing queue has data, processing started
+I0417 15:47:45.264564  5156 processor.cc:81] Processing queue has data, processing started
+I0417 15:47:45.297467  5156 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:47:45.327188 16064 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:47:45.941536  5156 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:47:45.945534  5156 cuckoo_watch.h:45] 682ms in ProcessBatch(postnauka\aaaaaa.batch) [including 34ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 26ms in InitializeSparseNdw; 426ms in InferThetaAndUpdateNwtSparse; 190ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:47:46.030184  5156 processor.cc:74] No data in processing queue, waiting...
+I0417 15:47:46.744197 16064 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:47:46.758294 16064 cuckoo_watch.h:45] 1494ms in ProcessBatch(postnauka\aaaaab.batch) [including 65ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 64ms in InitializeSparseNdw; 903ms in InferThetaAndUpdateNwtSparse; 445ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:47:46.760458  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:47:46.760458  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:47:46.848474 16064 processor.cc:74] No data in processing queue, waiting...
+I0417 15:47:46.931545  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:47:46.931545  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:47:46.931545  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:47:47.050521  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:47:47.314826  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:47:47.331369  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:47:47.331369  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:47:47.331369  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:47:47.378662 16300 processor.cc:81] Processing queue has data, processing started
+I0417 15:47:47.378662 10496 processor.cc:81] Processing queue has data, processing started
+I0417 15:47:47.434144 16300 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:47:47.474954 10496 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:47:48.103287 16300 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:47:48.110024 16300 cuckoo_watch.h:45] 731ms in ProcessBatch(postnauka\aaaaaa.batch) [including 56ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 35ms in InitializeSparseNdw; 452ms in InferThetaAndUpdateNwtSparse; 182ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:47:48.197661 16300 processor.cc:74] No data in processing queue, waiting...
+I0417 15:47:48.965754 10496 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:47:48.971737 10496 cuckoo_watch.h:45] 1593ms in ProcessBatch(postnauka\aaaaab.batch) [including 97ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 83ms in InitializeSparseNdw; 895ms in InferThetaAndUpdateNwtSparse; 509ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:47:48.974032  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:47:48.974032  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:47:49.046200 10496 processor.cc:74] No data in processing queue, waiting...
+I0417 15:47:49.069299  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:47:49.069299  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:47:49.069299  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:47:49.157864  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:47:49.343057  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:47:49.354995  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:47:49.354995  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:47:49.354995  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:47:49.390000 16300 processor.cc:81] Processing queue has data, processing started
+I0417 15:47:49.390000 16064 processor.cc:81] Processing queue has data, processing started
+I0417 15:47:49.434384 16064 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:47:49.478752 16300 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:47:50.121719 16064 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:47:50.127413 16064 cuckoo_watch.h:45] 738ms in ProcessBatch(postnauka\aaaaaa.batch) [including 47ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 27ms in InitializeSparseNdw; 457ms in InferThetaAndUpdateNwtSparse; 200ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:47:50.226562 16064 processor.cc:74] No data in processing queue, waiting...
+I0417 15:47:50.946610 16300 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:47:50.964038 16300 cuckoo_watch.h:45] 1574ms in ProcessBatch(postnauka\aaaaab.batch) [including 88ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 71ms in InitializeSparseNdw; 936ms in InferThetaAndUpdateNwtSparse; 458ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:47:50.968070  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:47:50.968070  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:47:51.046227 16300 processor.cc:74] No data in processing queue, waiting...
+I0417 15:47:51.204792  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:47:51.204792  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:47:51.204792  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:47:51.366571  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:47:51.581297  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:47:51.594440  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:47:51.594440  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:47:51.594440  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:47:51.641387  5156 processor.cc:81] Processing queue has data, processing started
+I0417 15:47:51.641500 17372 processor.cc:81] Processing queue has data, processing started
+I0417 15:47:51.682736  5156 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:47:51.707587 17372 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:47:52.241261  5156 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:47:52.245285  5156 cuckoo_watch.h:45] 603ms in ProcessBatch(postnauka\aaaaaa.batch) [including 41ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 23ms in InitializeSparseNdw; 357ms in InferThetaAndUpdateNwtSparse; 177ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:47:52.328681  5156 processor.cc:74] No data in processing queue, waiting...
+I0417 15:47:52.975286 17372 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:47:52.985626 17372 cuckoo_watch.h:45] 1345ms in ProcessBatch(postnauka\aaaaab.batch) [including 66ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 46ms in InitializeSparseNdw; 769ms in InferThetaAndUpdateNwtSparse; 450ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:47:52.988145  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:47:52.988145  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:47:53.072261 17372 processor.cc:74] No data in processing queue, waiting...
+I0417 15:47:53.166460  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:47:53.166460  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:47:53.166460  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:47:53.297708  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:47:53.530089  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:47:53.542729  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:47:53.542729  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:47:53.542729  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:47:53.592502  5156 processor.cc:81] Processing queue has data, processing started
+I0417 15:47:53.592502  2136 processor.cc:81] Processing queue has data, processing started
+I0417 15:47:53.644930  5156 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:47:53.700908  2136 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:47:54.334442  5156 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:47:54.334442  5156 cuckoo_watch.h:45] 745ms in ProcessBatch(postnauka\aaaaaa.batch) [including 55ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 38ms in InitializeSparseNdw; 452ms in InferThetaAndUpdateNwtSparse; 194ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:47:54.415920  5156 processor.cc:74] No data in processing queue, waiting...
+I0417 15:47:55.009816  2136 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:47:55.017904  2136 cuckoo_watch.h:45] 1425ms in ProcessBatch(postnauka\aaaaab.batch) [including 108ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 76ms in InitializeSparseNdw; 891ms in InferThetaAndUpdateNwtSparse; 339ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:47:55.017904  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:47:55.017904  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:47:55.103456  2136 processor.cc:74] No data in processing queue, waiting...
+I0417 15:47:55.178337  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:47:55.178337  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:47:55.178337  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:47:55.287762  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:47:55.483284  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:47:55.496661  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:47:55.496661  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:47:55.496661  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:47:55.536458  5156 processor.cc:81] Processing queue has data, processing started
+I0417 15:47:55.536458 16300 processor.cc:81] Processing queue has data, processing started
+I0417 15:47:55.582123 16300 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:47:55.610590  5156 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:47:56.237149 16300 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:47:56.239145 16300 cuckoo_watch.h:45] 704ms in ProcessBatch(postnauka\aaaaaa.batch) [including 45ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 23ms in InitializeSparseNdw; 454ms in InferThetaAndUpdateNwtSparse; 175ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:47:56.324095 16300 processor.cc:74] No data in processing queue, waiting...
+I0417 15:47:56.946746  5156 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:47:56.953289  5156 cuckoo_watch.h:45] 1420ms in ProcessBatch(postnauka\aaaaab.batch) [including 74ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 64ms in InitializeSparseNdw; 913ms in InferThetaAndUpdateNwtSparse; 360ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:47:56.957506  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:47:56.957506  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:47:57.039597  5156 processor.cc:74] No data in processing queue, waiting...
+I0417 15:47:57.071760  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:47:57.071760  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:47:57.071760  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:47:57.159567  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:47:57.336943  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:47:57.347543  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:47:57.347543  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:47:57.347543  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:47:57.383029 16300 processor.cc:81] Processing queue has data, processing started
+I0417 15:47:57.383029  6108 processor.cc:81] Processing queue has data, processing started
+I0417 15:47:57.418359 16300 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:47:57.453161  6108 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:47:58.053777 16300 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:47:58.061830 16300 cuckoo_watch.h:45] 679ms in ProcessBatch(postnauka\aaaaaa.batch) [including 35ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 30ms in InitializeSparseNdw; 412ms in InferThetaAndUpdateNwtSparse; 195ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:47:58.146250 16300 processor.cc:74] No data in processing queue, waiting...
+I0417 15:47:58.768414  6108 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:47:58.776393  6108 cuckoo_watch.h:45] 1393ms in ProcessBatch(postnauka\aaaaab.batch) [including 70ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 55ms in InitializeSparseNdw; 896ms in InferThetaAndUpdateNwtSparse; 363ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:47:58.780602  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:47:58.780602  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:47:58.854606  6108 processor.cc:74] No data in processing queue, waiting...
+I0417 15:47:58.894840  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:47:58.894840  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:47:58.894840  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:47:58.979104  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:47:59.211055  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:47:59.227030  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:47:59.227030  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:47:59.227030  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:47:59.262779 16064 processor.cc:81] Processing queue has data, processing started
+I0417 15:47:59.262779 16300 processor.cc:81] Processing queue has data, processing started
+I0417 15:47:59.300927 16064 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:47:59.332885 16300 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:47:59.982553 16064 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:47:59.986552 16064 cuckoo_watch.h:45] 725ms in ProcessBatch(postnauka\aaaaaa.batch) [including 39ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 26ms in InitializeSparseNdw; 445ms in InferThetaAndUpdateNwtSparse; 209ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:48:00.080235 16064 processor.cc:74] No data in processing queue, waiting...
+I0417 15:48:00.692788 16300 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:48:00.701835 16300 cuckoo_watch.h:45] 1439ms in ProcessBatch(postnauka\aaaaab.batch) [including 73ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 66ms in InitializeSparseNdw; 933ms in InferThetaAndUpdateNwtSparse; 357ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:48:00.706152  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:48:00.706152  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:48:00.779017 16300 processor.cc:74] No data in processing queue, waiting...
+I0417 15:48:00.822988  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:48:00.822988  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:48:00.822988  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:48:00.914291  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:48:01.087339  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:48:01.106262  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:48:01.106262  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:48:01.106262  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:48:01.148216 10496 processor.cc:81] Processing queue has data, processing started
+I0417 15:48:01.148216  5156 processor.cc:81] Processing queue has data, processing started
+I0417 15:48:01.203037  5156 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:48:01.237216 10496 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:48:01.907874  5156 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:48:01.913239  5156 cuckoo_watch.h:45] 765ms in ProcessBatch(postnauka\aaaaaa.batch) [including 55ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 28ms in InitializeSparseNdw; 466ms in InferThetaAndUpdateNwtSparse; 209ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:48:01.992995  5156 processor.cc:74] No data in processing queue, waiting...
+I0417 15:48:02.616957 10496 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:48:02.620645 10496 cuckoo_watch.h:45] 1474ms in ProcessBatch(postnauka\aaaaab.batch) [including 90ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 68ms in InitializeSparseNdw; 949ms in InferThetaAndUpdateNwtSparse; 359ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:48:02.625104  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:48:02.625104  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:48:02.709362 10496 processor.cc:74] No data in processing queue, waiting...
+I0417 15:48:02.802166  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:48:02.803169  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:48:02.803169  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:48:02.941013  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:48:03.180011  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:48:03.196043  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:48:03.196043  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:48:03.196043  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:48:03.233626  6108 processor.cc:81] Processing queue has data, processing started
+I0417 15:48:03.233626 16300 processor.cc:81] Processing queue has data, processing started
+I0417 15:48:03.273016  6108 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:48:03.308969 16300 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:48:03.924685  6108 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:48:03.928678  6108 cuckoo_watch.h:45] 698ms in ProcessBatch(postnauka\aaaaaa.batch) [including 39ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 32ms in InitializeSparseNdw; 428ms in InferThetaAndUpdateNwtSparse; 192ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:48:04.007653  6108 processor.cc:74] No data in processing queue, waiting...
+I0417 15:48:04.702139 16300 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:48:04.712796 16300 cuckoo_watch.h:45] 1480ms in ProcessBatch(postnauka\aaaaab.batch) [including 78ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 63ms in InitializeSparseNdw; 903ms in InferThetaAndUpdateNwtSparse; 421ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:48:04.716444  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:48:04.716444  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:48:04.804246 16300 processor.cc:74] No data in processing queue, waiting...
+I0417 15:48:04.869438  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:48:04.869438  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:48:04.869438  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:48:04.962864  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:48:05.137137  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:48:05.149132  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:48:05.149132  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:48:05.149132  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:48:05.186331 10496 processor.cc:81] Processing queue has data, processing started
+I0417 15:48:05.186331  5156 processor.cc:81] Processing queue has data, processing started
+I0417 15:48:05.232029 10496 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:48:05.261854  5156 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:48:05.931545 10496 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:48:05.935585 10496 cuckoo_watch.h:45] 751ms in ProcessBatch(postnauka\aaaaaa.batch) [including 47ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 23ms in InitializeSparseNdw; 450ms in InferThetaAndUpdateNwtSparse; 225ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:48:06.015805 10496 processor.cc:74] No data in processing queue, waiting...
+I0417 15:48:06.640193  5156 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:48:06.648156  5156 cuckoo_watch.h:45] 1464ms in ProcessBatch(postnauka\aaaaab.batch) [including 77ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 63ms in InitializeSparseNdw; 955ms in InferThetaAndUpdateNwtSparse; 359ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:48:06.652329  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:48:06.652329  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:48:06.730675  5156 processor.cc:74] No data in processing queue, waiting...
+I0417 15:48:06.766335  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:48:06.766335  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:48:06.766335  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:48:06.854318  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:48:07.030351  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:48:07.043670  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:48:07.043670  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:48:07.043670  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:48:07.081022 16064 processor.cc:81] Processing queue has data, processing started
+I0417 15:48:07.081022  6108 processor.cc:81] Processing queue has data, processing started
+I0417 15:48:07.118141 16064 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:48:07.159346  6108 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:48:07.807689 16064 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:48:07.811676 16064 cuckoo_watch.h:45] 732ms in ProcessBatch(postnauka\aaaaaa.batch) [including 40ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 33ms in InitializeSparseNdw; 450ms in InferThetaAndUpdateNwtSparse; 202ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:48:07.889991 16064 processor.cc:74] No data in processing queue, waiting...
+I0417 15:48:08.512497  6108 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:48:08.518543  6108 cuckoo_watch.h:45] 1439ms in ProcessBatch(postnauka\aaaaab.batch) [including 79ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 66ms in InitializeSparseNdw; 928ms in InferThetaAndUpdateNwtSparse; 356ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:48:08.522719  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:48:08.522719  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:48:08.595666  6108 processor.cc:74] No data in processing queue, waiting...
+I0417 15:48:08.635653  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:48:08.635653  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:48:08.635653  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:48:08.724730  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:48:08.892603  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:48:08.904599  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:48:08.904599  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:48:08.904599  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:48:08.944725 16064 processor.cc:81] Processing queue has data, processing started
+I0417 15:48:08.944725 16300 processor.cc:81] Processing queue has data, processing started
+I0417 15:48:08.979967 16064 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:48:09.020125 16300 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:48:09.670544 16064 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:48:09.678534 16064 cuckoo_watch.h:45] 734ms in ProcessBatch(postnauka\aaaaaa.batch) [including 35ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 34ms in InitializeSparseNdw; 463ms in InferThetaAndUpdateNwtSparse; 195ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:48:09.760900 16064 processor.cc:74] No data in processing queue, waiting...
+I0417 15:48:10.395479 16300 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:48:10.404960 16300 cuckoo_watch.h:45] 1461ms in ProcessBatch(postnauka\aaaaab.batch) [including 78ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 66ms in InitializeSparseNdw; 934ms in InferThetaAndUpdateNwtSparse; 374ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:48:10.409140  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:48:10.409140  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:48:10.484612 16300 processor.cc:74] No data in processing queue, waiting...
+I0417 15:48:10.524349  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:48:10.524349  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:48:10.524349  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:48:10.612323  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:48:10.777983  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:48:10.791189  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:48:10.791189  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:48:10.791189  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:48:10.829874 16064 processor.cc:81] Processing queue has data, processing started
+I0417 15:48:10.829874 17372 processor.cc:81] Processing queue has data, processing started
+I0417 15:48:10.866988 16064 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:48:10.904268 17372 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:48:11.543836 16064 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:48:11.551904 16064 cuckoo_watch.h:45] 722ms in ProcessBatch(postnauka\aaaaaa.batch) [including 40ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 27ms in InitializeSparseNdw; 467ms in InferThetaAndUpdateNwtSparse; 181ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:48:11.636816 16064 processor.cc:74] No data in processing queue, waiting...
+I0417 15:48:12.276119 17372 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:48:12.285838 17372 cuckoo_watch.h:45] 1458ms in ProcessBatch(postnauka\aaaaab.batch) [including 75ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 68ms in InitializeSparseNdw; 923ms in InferThetaAndUpdateNwtSparse; 380ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:48:12.289891  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:48:12.289891  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:48:12.364154 17372 processor.cc:74] No data in processing queue, waiting...
+I0417 15:48:12.405424  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:48:12.405424  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:48:12.405424  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:48:12.491149  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:48:12.660154  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:48:12.671391  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:48:12.671391  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:48:12.671391  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:48:12.709061  5156 processor.cc:81] Processing queue has data, processing started
+I0417 15:48:12.709061  8472 processor.cc:81] Processing queue has data, processing started
+I0417 15:48:12.744472  5156 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:48:12.783939  8472 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:48:13.368582  5156 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:48:13.372582  5156 cuckoo_watch.h:45] 665ms in ProcessBatch(postnauka\aaaaaa.batch) [including 36ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 30ms in InitializeSparseNdw; 413ms in InferThetaAndUpdateNwtSparse; 180ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:48:13.455729  5156 processor.cc:74] No data in processing queue, waiting...
+I0417 15:48:14.067332  8472 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:48:14.075287  8472 cuckoo_watch.h:45] 1368ms in ProcessBatch(postnauka\aaaaab.batch) [including 74ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 57ms in InitializeSparseNdw; 875ms in InferThetaAndUpdateNwtSparse; 351ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:48:14.079339  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:48:14.079339  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:48:14.153710  8472 processor.cc:74] No data in processing queue, waiting...
+I0417 15:48:14.193781  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:48:14.193781  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:48:14.193781  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:48:14.278066  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:48:14.448837  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:48:14.460824  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:48:14.460824  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:48:14.460824  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:48:14.499410  5156 processor.cc:81] Processing queue has data, processing started
+I0417 15:48:14.499410 16064 processor.cc:81] Processing queue has data, processing started
+I0417 15:48:14.535181  5156 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:48:14.570004 16064 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:48:15.191370  5156 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:48:15.195363  5156 cuckoo_watch.h:45] 699ms in ProcessBatch(postnauka\aaaaaa.batch) [including 37ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 24ms in InitializeSparseNdw; 425ms in InferThetaAndUpdateNwtSparse; 206ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:48:15.272722  5156 processor.cc:74] No data in processing queue, waiting...
+I0417 15:48:15.900943 16064 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:48:15.910454 16064 cuckoo_watch.h:45] 1411ms in ProcessBatch(postnauka\aaaaab.batch) [including 74ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 61ms in InitializeSparseNdw; 914ms in InferThetaAndUpdateNwtSparse; 353ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:48:15.914759  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:48:15.914759  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:48:15.997939 16064 processor.cc:74] No data in processing queue, waiting...
+I0417 15:48:16.038627  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:48:16.038627  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:48:16.038627  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:48:16.125785  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:48:16.292513  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:48:16.305644  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:48:16.305644  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:48:16.305644  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:48:16.344133  5156 processor.cc:81] Processing queue has data, processing started
+I0417 15:48:16.344133  2136 processor.cc:81] Processing queue has data, processing started
+I0417 15:48:16.376986  5156 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:48:16.408043  2136 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:48:17.093394  5156 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:48:17.098620  5156 cuckoo_watch.h:45] 755ms in ProcessBatch(postnauka\aaaaaa.batch) [including 34ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 30ms in InitializeSparseNdw; 464ms in InferThetaAndUpdateNwtSparse; 221ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:48:17.174842  5156 processor.cc:74] No data in processing queue, waiting...
+I0417 15:48:17.776038  2136 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:48:17.784165  2136 cuckoo_watch.h:45] 1443ms in ProcessBatch(postnauka\aaaaab.batch) [including 63ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 72ms in InitializeSparseNdw; 949ms in InferThetaAndUpdateNwtSparse; 346ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:48:17.788290  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:48:17.788506  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:48:17.868654  2136 processor.cc:74] No data in processing queue, waiting...
+I0417 15:48:17.912925  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:48:17.912925  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:48:17.912925  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:48:18.000768  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:48:18.167353  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:48:18.180696  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:48:18.180696  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:48:18.180696  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:48:18.217960  6108 processor.cc:81] Processing queue has data, processing started
+I0417 15:48:18.217960 16064 processor.cc:81] Processing queue has data, processing started
+I0417 15:48:18.253602 16064 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:48:18.293591  6108 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:48:18.900594 16064 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:48:18.904633 16064 cuckoo_watch.h:45] 687ms in ProcessBatch(postnauka\aaaaaa.batch) [including 38ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 28ms in InitializeSparseNdw; 435ms in InferThetaAndUpdateNwtSparse; 180ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:48:18.984489 16064 processor.cc:74] No data in processing queue, waiting...
+I0417 15:48:19.608671  6108 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:48:19.612637  6108 cuckoo_watch.h:45] 1396ms in ProcessBatch(postnauka\aaaaab.batch) [including 76ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 56ms in InitializeSparseNdw; 899ms in InferThetaAndUpdateNwtSparse; 358ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:48:19.616855  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:48:19.616855  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:48:19.690434  6108 processor.cc:74] No data in processing queue, waiting...
+I0417 15:48:19.728705  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:48:19.728705  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:48:19.728705  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:48:19.816236  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:48:19.987432  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:48:20.003409  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:48:20.003409  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:48:20.003409  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:48:20.044791 16064 processor.cc:81] Processing queue has data, processing started
+I0417 15:48:20.044791  5156 processor.cc:81] Processing queue has data, processing started
+I0417 15:48:20.085660  5156 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:48:20.127306 16064 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:48:20.746634  5156 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:48:20.750670  5156 cuckoo_watch.h:45] 708ms in ProcessBatch(postnauka\aaaaaa.batch) [including 41ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 33ms in InitializeSparseNdw; 424ms in InferThetaAndUpdateNwtSparse; 204ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:48:20.827754  5156 processor.cc:74] No data in processing queue, waiting...
+I0417 15:48:21.619585 16064 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:48:21.623584 16064 cuckoo_watch.h:45] 1581ms in ProcessBatch(postnauka\aaaaab.batch) [including 83ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 64ms in InitializeSparseNdw; 907ms in InferThetaAndUpdateNwtSparse; 519ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:48:21.627712  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:48:21.627712  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:48:21.706820 16064 processor.cc:74] No data in processing queue, waiting...
+I0417 15:48:21.738740  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:48:21.738740  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:48:21.738740  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:48:21.822657  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:48:21.993026  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:48:22.006183  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:48:22.006183  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:48:22.006183  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:48:22.043862  5156 processor.cc:81] Processing queue has data, processing started
+I0417 15:48:22.043862  2136 processor.cc:81] Processing queue has data, processing started
+I0417 15:48:22.095002  5156 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:48:22.140434  2136 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:48:22.795805  5156 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:48:22.799799  5156 cuckoo_watch.h:45] 759ms in ProcessBatch(postnauka\aaaaaa.batch) [including 52ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 39ms in InitializeSparseNdw; 479ms in InferThetaAndUpdateNwtSparse; 183ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:48:22.876989  5156 processor.cc:74] No data in processing queue, waiting...
+I0417 15:48:23.502192  2136 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:48:23.510159  2136 cuckoo_watch.h:45] 1468ms in ProcessBatch(postnauka\aaaaab.batch) [including 98ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 79ms in InitializeSparseNdw; 926ms in InferThetaAndUpdateNwtSparse; 354ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:48:23.514348  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:48:23.514348  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:48:23.587376  2136 processor.cc:74] No data in processing queue, waiting...
+I0417 15:48:23.628587  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:48:23.628587  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:48:23.628587  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:48:23.719404  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:48:23.889447  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:48:23.898882  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:48:36.144989  4664 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=30, score_config_size=3, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=10, regularizer=(SmoothPhi:100000), regularizer=(SparsePhi:-100000), reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0417 15:48:36.144989  4664 instance.cc:401] MasterModelConfig.processors_count is automatically set to 8
+I0417 15:48:36.144989  4664 instance.cc:232] Regularizer 'SmoothPhi' was cold-reconfigured
+I0417 15:48:36.144989  4664 instance.cc:232] Regularizer 'SparsePhi' was cold-reconfigured
+I0417 15:48:48.661852  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:48:48.661852  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), regularizer=(name:SparsePhi, tau:-100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:48:48.693624 17372 processor.cc:81] Processing queue has data, processing started
+I0417 15:48:48.697242  8472 processor.cc:81] Processing queue has data, processing started
+I0417 15:48:48.726105 17372 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:48:48.759042  8472 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:48:49.438184 17372 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:48:49.438184 17372 cuckoo_watch.h:45] 748ms in ProcessBatch(postnauka\aaaaaa.batch) [including 32ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 14ms in InitializeSparseNdw; 495ms in InferThetaAndUpdateNwtSparse; 201ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:48:49.515663 17372 processor.cc:74] No data in processing queue, waiting...
+I0417 15:48:50.147163  8472 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:48:50.151162  8472 cuckoo_watch.h:45] 1456ms in ProcessBatch(postnauka\aaaaab.batch) [including 63ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 78ms in InitializeSparseNdw; 945ms in InferThetaAndUpdateNwtSparse; 362ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:48:50.155330  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:48:50.155330  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:48:50.227057  8472 processor.cc:74] No data in processing queue, waiting...
+I0417 15:48:50.276672  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:48:50.276672  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:48:50.276672  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:48:50.366080  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:48:50.531914  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:48:50.545064  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:48:50.545064  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:48:50.545064  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), regularizer=(name:SparsePhi, tau:-100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:48:50.581614  5156 processor.cc:81] Processing queue has data, processing started
+I0417 15:48:50.581614 16064 processor.cc:81] Processing queue has data, processing started
+I0417 15:48:50.614061 16064 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:48:50.640765  5156 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:48:51.271433 16064 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:48:51.275429 16064 cuckoo_watch.h:45] 695ms in ProcessBatch(postnauka\aaaaaa.batch) [including 35ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 22ms in InitializeSparseNdw; 446ms in InferThetaAndUpdateNwtSparse; 186ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:48:51.351327 16064 processor.cc:74] No data in processing queue, waiting...
+I0417 15:48:51.967157  5156 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:48:51.977377  5156 cuckoo_watch.h:45] 1395ms in ProcessBatch(postnauka\aaaaab.batch) [including 62ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 65ms in InitializeSparseNdw; 910ms in InferThetaAndUpdateNwtSparse; 348ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:48:51.978488  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:48:51.978488  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:48:52.054992  5156 processor.cc:74] No data in processing queue, waiting...
+I0417 15:48:52.075495  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:48:52.075495  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:48:52.075495  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:48:52.139793  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:48:52.294744  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:48:52.317008  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:48:52.317008  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:48:52.317008  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), regularizer=(name:SparsePhi, tau:-100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:48:52.380796 16064 processor.cc:81] Processing queue has data, processing started
+I0417 15:48:52.380796 10496 processor.cc:81] Processing queue has data, processing started
+I0417 15:48:52.433938 16064 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:48:52.483857 10496 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:48:53.163123 16064 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:48:53.173183 16064 cuckoo_watch.h:45] 792ms in ProcessBatch(postnauka\aaaaaa.batch) [including 55ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 39ms in InitializeSparseNdw; 479ms in InferThetaAndUpdateNwtSparse; 209ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:48:53.277482 16064 processor.cc:74] No data in processing queue, waiting...
+I0417 15:48:53.854313 10496 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:48:53.866945 10496 cuckoo_watch.h:45] 1486ms in ProcessBatch(postnauka\aaaaab.batch) [including 103ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 95ms in InitializeSparseNdw; 924ms in InferThetaAndUpdateNwtSparse; 348ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:48:53.870031  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:48:53.870031  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:48:53.948966 10496 processor.cc:74] No data in processing queue, waiting...
+I0417 15:48:54.063370  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:48:54.063370  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:48:54.063370  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:48:54.158252  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:48:54.342447  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:48:54.361766  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:48:54.361766  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:48:54.361766  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), regularizer=(name:SparsePhi, tau:-100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:48:54.420615 16064 processor.cc:81] Processing queue has data, processing started
+I0417 15:48:54.420615  2136 processor.cc:81] Processing queue has data, processing started
+I0417 15:48:54.488003 16064 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:48:54.544358  2136 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:48:55.201826 16064 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:48:55.205883 16064 cuckoo_watch.h:45] 786ms in ProcessBatch(postnauka\aaaaaa.batch) [including 67ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 48ms in InitializeSparseNdw; 480ms in InferThetaAndUpdateNwtSparse; 185ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:48:55.283996 16064 processor.cc:74] No data in processing queue, waiting...
+I0417 15:48:56.038162  2136 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:48:56.052644  2136 cuckoo_watch.h:45] 1632ms in ProcessBatch(postnauka\aaaaab.batch) [including 124ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 112ms in InitializeSparseNdw; 906ms in InferThetaAndUpdateNwtSparse; 474ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:48:56.058136  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:48:56.058136  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:48:56.156298  2136 processor.cc:74] No data in processing queue, waiting...
+I0417 15:48:56.223701  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:48:56.223701  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:48:56.223701  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:48:56.368943  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:48:56.595412  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:48:56.609149  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:48:56.609724  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:48:56.609724  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), regularizer=(name:SparsePhi, tau:-100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:48:56.647595 16300 processor.cc:81] Processing queue has data, processing started
+I0417 15:48:56.647595 16064 processor.cc:81] Processing queue has data, processing started
+I0417 15:48:56.692582 16064 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:48:56.729837 16300 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:48:57.373450 16064 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:48:57.378149 16064 cuckoo_watch.h:45] 730ms in ProcessBatch(postnauka\aaaaaa.batch) [including 44ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 32ms in InitializeSparseNdw; 437ms in InferThetaAndUpdateNwtSparse; 210ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:48:57.460265 16064 processor.cc:74] No data in processing queue, waiting...
+I0417 15:48:58.208128 16300 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:48:58.213730 16300 cuckoo_watch.h:45] 1566ms in ProcessBatch(postnauka\aaaaab.batch) [including 84ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 60ms in InitializeSparseNdw; 1022ms in InferThetaAndUpdateNwtSparse; 390ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:48:58.218478  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:48:58.218478  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:48:58.299067 16300 processor.cc:74] No data in processing queue, waiting...
+I0417 15:48:58.334779  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:48:58.334779  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:48:58.334779  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:48:58.412798  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:48:58.604452  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:48:58.635520  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:48:58.636601  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:48:58.636601  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), regularizer=(name:SparsePhi, tau:-100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:48:58.694316  6108 processor.cc:81] Processing queue has data, processing started
+I0417 15:48:58.694316  2136 processor.cc:81] Processing queue has data, processing started
+I0417 15:48:58.729527  6108 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:48:58.754631  2136 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:48:59.370268  6108 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:48:59.373502  6108 cuckoo_watch.h:45] 679ms in ProcessBatch(postnauka\aaaaaa.batch) [including 35ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 24ms in InitializeSparseNdw; 412ms in InferThetaAndUpdateNwtSparse; 203ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:48:59.467026  6108 processor.cc:74] No data in processing queue, waiting...
+I0417 15:49:00.103500  2136 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:49:00.111622  2136 cuckoo_watch.h:45] 1419ms in ProcessBatch(postnauka\aaaaab.batch) [including 60ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 48ms in InitializeSparseNdw; 887ms in InferThetaAndUpdateNwtSparse; 413ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:49:00.115772  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:49:00.115772  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:49:00.191368  2136 processor.cc:74] No data in processing queue, waiting...
+I0417 15:49:00.240638  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:49:00.240638  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:49:00.240638  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:49:00.330590  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:49:00.483817  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:49:00.507789  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:49:00.507823  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:49:00.507823  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), regularizer=(name:SparsePhi, tau:-100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:49:00.576985 16064 processor.cc:81] Processing queue has data, processing started
+I0417 15:49:00.576985 17372 processor.cc:81] Processing queue has data, processing started
+I0417 15:49:00.652720 16064 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:49:00.711658 17372 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:49:01.296052 16064 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:49:01.303058 16064 cuckoo_watch.h:45] 726ms in ProcessBatch(postnauka\aaaaaa.batch) [including 79ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 46ms in InitializeSparseNdw; 410ms in InferThetaAndUpdateNwtSparse; 184ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:49:01.389649 16064 processor.cc:74] No data in processing queue, waiting...
+I0417 15:49:01.961174 17372 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:49:01.970397 17372 cuckoo_watch.h:45] 1393ms in ProcessBatch(postnauka\aaaaab.batch) [including 134ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 67ms in InitializeSparseNdw; 828ms in InferThetaAndUpdateNwtSparse; 353ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:49:01.973788  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:49:01.973788  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:49:02.055181 17372 processor.cc:74] No data in processing queue, waiting...
+I0417 15:49:02.127733  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:49:02.127733  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:49:02.127733  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:49:02.294564  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:49:02.449105  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:49:02.457785  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:49:02.457785  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:49:02.457785  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), regularizer=(name:SparsePhi, tau:-100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:49:02.490893  5156 processor.cc:81] Processing queue has data, processing started
+I0417 15:49:02.498720  6108 processor.cc:81] Processing queue has data, processing started
+I0417 15:49:02.523479  5156 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:49:02.563423  6108 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:49:03.137548  5156 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:49:03.138546  5156 cuckoo_watch.h:45] 650ms in ProcessBatch(postnauka\aaaaaa.batch) [including 32ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 25ms in InitializeSparseNdw; 379ms in InferThetaAndUpdateNwtSparse; 208ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:49:03.217135  5156 processor.cc:74] No data in processing queue, waiting...
+I0417 15:49:03.903659  6108 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:49:03.911646  6108 cuckoo_watch.h:45] 1415ms in ProcessBatch(postnauka\aaaaab.batch) [including 64ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 57ms in InitializeSparseNdw; 838ms in InferThetaAndUpdateNwtSparse; 446ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:49:03.915782  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:49:03.915782  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:49:03.995738  6108 processor.cc:74] No data in processing queue, waiting...
+I0417 15:49:04.036965  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:49:04.036965  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:49:04.036965  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:49:04.123888  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:49:04.260107  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:49:04.273236  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:49:04.273236  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:49:04.273236  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), regularizer=(name:SparsePhi, tau:-100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:49:04.306354  8472 processor.cc:81] Processing queue has data, processing started
+I0417 15:49:04.306354 16064 processor.cc:81] Processing queue has data, processing started
+I0417 15:49:04.337430  8472 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:49:04.369997 16064 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:49:04.995455  8472 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:49:04.999449  8472 cuckoo_watch.h:45] 694ms in ProcessBatch(postnauka\aaaaaa.batch) [including 31ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 26ms in InitializeSparseNdw; 428ms in InferThetaAndUpdateNwtSparse; 203ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:49:05.082011  8472 processor.cc:74] No data in processing queue, waiting...
+I0417 15:49:05.723274 16064 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:49:05.731264 16064 cuckoo_watch.h:45] 1426ms in ProcessBatch(postnauka\aaaaab.batch) [including 63ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 46ms in InitializeSparseNdw; 950ms in InferThetaAndUpdateNwtSparse; 356ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:49:05.735455  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:49:05.735455  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:49:05.807169 16064 processor.cc:74] No data in processing queue, waiting...
+I0417 15:49:05.884162  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:49:05.884162  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:49:05.884162  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:49:05.970293  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:49:06.134905  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:49:06.146891  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:49:06.146891  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:49:06.146891  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), regularizer=(name:SparsePhi, tau:-100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:49:06.184739 16300 processor.cc:81] Processing queue has data, processing started
+I0417 15:49:06.184739  5156 processor.cc:81] Processing queue has data, processing started
+I0417 15:49:06.224524  5156 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:49:06.256567 16300 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:49:06.893430  5156 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:49:06.897495  5156 cuckoo_watch.h:45] 712ms in ProcessBatch(postnauka\aaaaaa.batch) [including 41ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 28ms in InitializeSparseNdw; 437ms in InferThetaAndUpdateNwtSparse; 200ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:49:06.982964  5156 processor.cc:74] No data in processing queue, waiting...
+I0417 15:49:07.620724 16300 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:49:07.628710 16300 cuckoo_watch.h:45] 1446ms in ProcessBatch(postnauka\aaaaab.batch) [including 74ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 66ms in InitializeSparseNdw; 927ms in InferThetaAndUpdateNwtSparse; 368ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:49:07.632872  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:49:07.632872  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:49:07.706295 16300 processor.cc:74] No data in processing queue, waiting...
+I0417 15:49:07.758335  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:49:07.759371  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:49:07.759371  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:49:07.844535  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:49:08.008790  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:49:08.021817  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:49:08.021817  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:49:08.021817  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), regularizer=(name:SparsePhi, tau:-100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:49:08.057773 16064 processor.cc:81] Processing queue has data, processing started
+I0417 15:49:08.057773  2136 processor.cc:81] Processing queue has data, processing started
+I0417 15:49:08.090911 16064 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:49:08.122910  2136 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:49:08.782673 16064 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:49:08.783670 16064 cuckoo_watch.h:45] 728ms in ProcessBatch(postnauka\aaaaaa.batch) [including 36ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 27ms in InitializeSparseNdw; 456ms in InferThetaAndUpdateNwtSparse; 203ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:49:08.862331 16064 processor.cc:74] No data in processing queue, waiting...
+I0417 15:49:09.490319  2136 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:49:09.494316  2136 cuckoo_watch.h:45] 1439ms in ProcessBatch(postnauka\aaaaab.batch) [including 68ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 63ms in InitializeSparseNdw; 939ms in InferThetaAndUpdateNwtSparse; 362ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:49:09.498425  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:49:09.498425  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:49:09.576540  2136 processor.cc:74] No data in processing queue, waiting...
+I0417 15:49:09.620520  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:49:09.620520  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:49:09.620520  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:49:09.706210  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:49:09.871083  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:49:09.887065  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:49:09.887065  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:49:09.887065  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), regularizer=(name:SparsePhi, tau:-100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:49:09.924088  5156 processor.cc:81] Processing queue has data, processing started
+I0417 15:49:09.924088 16064 processor.cc:81] Processing queue has data, processing started
+I0417 15:49:09.964592 16064 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:49:09.999140  5156 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:49:10.612089 16064 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:49:10.616236 16064 cuckoo_watch.h:45] 692ms in ProcessBatch(postnauka\aaaaaa.batch) [including 43ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 27ms in InitializeSparseNdw; 442ms in InferThetaAndUpdateNwtSparse; 174ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:49:10.699398 16064 processor.cc:74] No data in processing queue, waiting...
+I0417 15:49:11.300094  5156 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:49:11.308085  5156 cuckoo_watch.h:45] 1384ms in ProcessBatch(postnauka\aaaaab.batch) [including 75ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 59ms in InitializeSparseNdw; 895ms in InferThetaAndUpdateNwtSparse; 346ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:49:11.312101  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:49:11.312101  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:49:11.385403  5156 processor.cc:74] No data in processing queue, waiting...
+I0417 15:49:11.437515  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:49:11.437515  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:49:11.437515  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:49:11.520197  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:49:11.685019  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:49:11.696992  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:49:11.696992  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:49:11.696992  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), regularizer=(name:SparsePhi, tau:-100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:49:11.735978 10496 processor.cc:81] Processing queue has data, processing started
+I0417 15:49:11.735978 17372 processor.cc:81] Processing queue has data, processing started
+I0417 15:49:11.789350 10496 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:49:11.826256 17372 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:49:12.530081 10496 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:49:12.534075 10496 cuckoo_watch.h:45] 801ms in ProcessBatch(postnauka\aaaaaa.batch) [including 55ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 31ms in InitializeSparseNdw; 481ms in InferThetaAndUpdateNwtSparse; 227ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:49:12.611111 10496 processor.cc:74] No data in processing queue, waiting...
+I0417 15:49:13.228880 17372 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:49:13.234334 17372 cuckoo_watch.h:45] 1499ms in ProcessBatch(postnauka\aaaaab.batch) [including 92ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 60ms in InitializeSparseNdw; 984ms in InferThetaAndUpdateNwtSparse; 355ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:49:13.238487  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:49:13.238487  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:49:13.311612 17372 processor.cc:74] No data in processing queue, waiting...
+I0417 15:49:13.362051  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:49:13.362051  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:49:13.362051  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:49:13.447074  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:49:13.607661  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:49:13.620887  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:49:13.620887  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:49:13.620887  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), regularizer=(name:SparsePhi, tau:-100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:49:13.659392 10496 processor.cc:81] Processing queue has data, processing started
+I0417 15:49:13.659392  5156 processor.cc:81] Processing queue has data, processing started
+I0417 15:49:13.691315 10496 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:49:13.724601  5156 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:49:14.389940 10496 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:49:14.395169 10496 cuckoo_watch.h:45] 737ms in ProcessBatch(postnauka\aaaaaa.batch) [including 33ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 29ms in InitializeSparseNdw; 459ms in InferThetaAndUpdateNwtSparse; 210ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:49:14.478440 10496 processor.cc:74] No data in processing queue, waiting...
+I0417 15:49:15.105672  5156 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:49:15.113695  5156 cuckoo_watch.h:45] 1454ms in ProcessBatch(postnauka\aaaaab.batch) [including 68ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 62ms in InitializeSparseNdw; 949ms in InferThetaAndUpdateNwtSparse; 365ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:49:15.117899  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:49:15.117899  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:49:15.193019  5156 processor.cc:74] No data in processing queue, waiting...
+I0417 15:49:15.240953  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:49:15.240953  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:49:15.240953  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:49:15.329121  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:49:15.490444  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:49:15.502441  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522
+I0417 15:49:15.506434  4664 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=2, batch_weight_size=2, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0417 15:49:15.506434  4664 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=2, batch_size=0, batch_weight_size=2, pwt_source_name=pwt, num_document_passes=10, regularizer=(name:SmoothPhi, tau:100000), regularizer=(name:SparsePhi, tau:-100000), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0417 15:49:15.543942 16064 processor.cc:81] Processing queue has data, processing started
+I0417 15:49:15.543942  5156 processor.cc:81] Processing queue has data, processing started
+I0417 15:49:15.573210 16064 processor.cc:158] Processor: start processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:49:15.617189  5156 processor.cc:158] Processor: start processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:49:16.273118 16064 processor.cc:293] Processor: complete processing batch b2f94e05-ef86-4190-81db-4013c144d259 into model nwt
+I0417 15:49:16.277161 16064 cuckoo_watch.h:45] 735ms in ProcessBatch(postnauka\aaaaaa.batch) [including 31ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 32ms in InitializeSparseNdw; 486ms in InferThetaAndUpdateNwtSparse; 179ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:49:16.354423 16064 processor.cc:74] No data in processing queue, waiting...
+I0417 15:49:16.980875  5156 processor.cc:293] Processor: complete processing batch 42cd4832-76ea-46ac-b575-419694a0e109 into model nwt
+I0417 15:49:16.984076  5156 cuckoo_watch.h:45] 1442ms in ProcessBatch(postnauka\aaaaab.batch) [including 75ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 72ms in InitializeSparseNdw; 931ms in InferThetaAndUpdateNwtSparse; 357ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0417 15:49:16.988348  4664 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0417 15:49:16.988348  4664 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0417 15:49:17.063195  5156 processor.cc:74] No data in processing queue, waiting...
+I0417 15:49:17.107717  4664 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0417 15:49:17.107717  4664 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0417 15:49:17.107717  4664 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0417 15:49:17.194242  4664 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0417 15:49:17.358240  4664 master_component.cc:1533] DisposeModel rwt
+I0417 15:49:17.370220  4664 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1728, num_batches=2, token_weight=808522, token_weight_in_effect=808522

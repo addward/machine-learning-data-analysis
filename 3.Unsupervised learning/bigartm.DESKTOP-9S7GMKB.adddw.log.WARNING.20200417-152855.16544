@@ -1,0 +1,5 @@
+Log file created at: 2020/04/17 15:28:55
+Running on machine: DESKTOP-9S7GMKB
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0417 15:28:55.842782  2040 helpers.cc:231] File already exists: postnauka\aaaaaa.batch
+W0417 15:28:56.883170 14096 helpers.cc:231] File already exists: postnauka\aaaaab.batch
